@@ -59,7 +59,6 @@ void printStack(st *s){
 }
 
 int main() {
-  int ch;
   st *s = (st *)malloc(sizeof(st));
 
   createEmptyStack(s);
@@ -68,7 +67,7 @@ int main() {
   push(s, 2);
   push(s, 3);
   push(s, 4);
-  printf("\nNgăn xếp sau khi thêm các phần tử: ")
+  printf("\nNgăn xếp sau khi thêm các phần tử: ");
   printStack(s);
 
   pop(s);
