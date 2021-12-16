@@ -43,7 +43,7 @@ void pop(st *s){
   if(isempty(s)){
     printf("\n STACK EMPTY \n");
   }else{
-    printf("Thêm = %d", s->items[s->top]);
+    printf("Phần tử xóa = %d", s->items[s->top]);
     s->top--;
   }
   count--;
