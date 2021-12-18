@@ -2,7 +2,7 @@
 
 void bubbleSort(int array[], int size){
   for(int step = 0; step < size - 1; ++step){
-    for(int i = 0; i < size - step - 1; ++i){
+    for(int i = 0; i < size - step - 1; i++){
       if(array[i] > array[i + 1]){
         int temp = array[i];
         array[i] = array[i + 1];
@@ -13,7 +13,7 @@ void bubbleSort(int array[], int size){
 }
 
 void printArray(int array[], int size){
-  for(int i = 0; i < size; ++i){
+  for(int i = 0; i < size; i++){
     printf("%d  ", array[i]);
   }
   printf("\n");
