@@ -15,7 +15,7 @@ void insertAtBeginning(struct Node** head_ref, int new_data) {
 
 void insertAfter(struct Node* prev_node, int new_data) {
   if (prev_node == NULL) {
-  printf("the given previous node cannot be NULL");
+  printf("Nút trước đó không thể là Null");
   return;
   }
   struct Node* new_node = (struct Node*)malloc(sizeof(struct Node));
@@ -97,8 +97,8 @@ int main() {
 
   int item_to_find = 3;
   if (searchNode(&head, item_to_find)) {
-  printf("\n%d is found", item_to_find);
+  printf("\n%d tồn tại trong danh sách", item_to_find);
   } else {
-  printf("\n%d is not found", item_to_find);
+  printf("\n%d không tôn tại trong danh sách", item_to_find);
   }
 }
