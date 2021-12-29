@@ -62,7 +62,7 @@ void bellmanford(struct Graph *g, int source){
   display(p, tV);
 }
 
-int main(void){
+int main(){
   struct Graph *g = (struct Graph *)malloc(sizeof(struct Graph));
   g->V = 5;
   g->E = 9;
